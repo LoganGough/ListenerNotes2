@@ -27,11 +27,18 @@ public class Main {
             @Override
             public void actionPerformed(ActionEvent e) {
 //                System.out.println("hi");
-                String blah = textField.getText();
-                label.setText("Hello " + blah);
-                String name = textField.getName();
+                String name = textField.getText();
+//                label.setText("Hello " + blah);
+//                String name = textField.getName();
                 if(name.equalsIgnoreCase("bob")){
-                  set.
+                    JFrame frame2 = new JFrame();
+                    JPanel panel2 = new JPanel();
+                    frame2.setSize(500, 500);
+
+
+                  panel2.setBackground(Color.RED);
+                  frame2.add(panel2);
+                  frame2.setVisible(true);
 
 
                 }
