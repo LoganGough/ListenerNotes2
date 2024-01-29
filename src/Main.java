@@ -31,6 +31,7 @@ public class Main {
                 label.setText("Hello " + blah);
                 String name = textField.getName();
                 if(name.equalsIgnoreCase("bob")){
+                  set.
 
 
                 }
